@@ -11,9 +11,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
     </section>
-    {/* <section id="Services">Parallax</section> */}
     <section id="Services"><Services/></section>
-    {/* <section id="Portfolio">Parallax</section> */}
     <Portfolio id="Portfolio"/>
     <section id="Contact"><Contact/></section>
     

@@ -1,6 +1,8 @@
 import {motion} from "framer-motion";
 import "./navbar.scss";
 import Sidebar from "../sidebar/Sidebar";
+import { FaGithub, FaInstagram, FaLinkedin  } from "react-icons/fa";
+
 
 const Navbar = () => {
     return(
@@ -15,10 +17,9 @@ const Navbar = () => {
                     Martin Aguirre
                 </motion.span>
                 <div className="social">
-                    <a href=""><img src="/facebook.png" alt="" /></a>
-                    <a href=""><img src="/instagram.png" alt="" /></a>
-                    <a href=""><img src="/youtube.png" alt="" /></a>
-                    <a href=""><img src="/dribbble.png" alt="" /></a>
+                    <a target="blank" href="https://github.com/martinAguirreRuiz"><FaGithub /></a>
+                    <a target="blank" href="https://www.linkedin.com/in/martin-federico-aguirre-ruiz/"><FaLinkedin /></a>
+                    <a target="blank" href="https://www.instagram.com/martin_aguirre16/"><FaInstagram /></a>
                 </div>
             </div>
         </div>

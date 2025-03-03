@@ -30,7 +30,7 @@ const Services = () => {
             className="services" 
             variants={variants} 
             initial="initial" 
-            animate={isInView && "animate"}
+            animate="animate"
             ref={ref}
         >
             <motion.div className="textContainer" variants={variants}>
